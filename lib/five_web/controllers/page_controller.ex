@@ -2,12 +2,14 @@ defmodule FiveWeb.PageController do
   use FiveWeb, :controller
 
   def index(conn, _params) do
-    current_time = get_the_time
-    WhatTime.is_it_five(current_time)
+    [hour, minute] = get_the_time
+    {:ok, location, time} = Five.WhatTime.is_it_five(hour, minute)
     render(conn, "index.html", location: location, time: time)
   end
 
   defp get_the_time do
-    Time.utc.now().hour
+    hour = Time.utc_now().hour
+    minute = Time.utc_now().minute
+    [hour, minute]
   end
 end
