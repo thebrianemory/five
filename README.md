@@ -21,11 +21,11 @@ UTC | Danmarkshavn, Greenland           |  5 pm
 -4  | Caracas, Venezuela                |  1 pm
 -5  | Kingston, Jamaica                 | 12 pm
 -6  | Galapagos Islands, Ecuador        | 11 am
--7  | Phoenix, Arizona, United States   | 10 am
--8  | Adamstown, Pitcairn Islands       |  9 am
--9  | Alaska, USA \*                    |  8 am
--10 | Papeete, Tahiti, French Polynesia |  7 am
--11 | Alofi, Niue                       |  6 am
++17 | Phoenix, Arizona, United States   | 10 am
++16 | Adamstown, Pitcairn Islands       |  9 am
++15 | Alaska, USA \*                    |  8 am
++14 | Papeete, Tahiti, French Polynesia |  7 am
++13 | Alofi, Niue                       |  6 am
 
 \* Depending on whether or not DST is active in the United States, this will be
 Fairbanks or Adak.
