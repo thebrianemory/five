@@ -1,0 +1,32 @@
+body {
+  background-color: #f8f8fb;
+}
+
+.wrap {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: system;
+  color: #3e3b3b;
+}
+
+.friday {
+  text-align: center;
+  font-size: 35vw;
+}
+
+.details {
+  text-align: center;
+  font-size: 3rem;
+}
+
+footer {
+  color: #9e9b9b;
+  text-align: center;
+  font-size: 2rem;
+}
