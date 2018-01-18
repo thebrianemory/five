@@ -1,0 +1,9 @@
+<div class="">
+  <div class="yes">
+    Yes.
+    <footer class="details">
+      It is <%= @time %> in <%= @location %>.
+    </footer>
+    <footer>It's always 5 o'clock somewhere!</footer>
+  </div>
+</div>
