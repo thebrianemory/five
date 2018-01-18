@@ -8,7 +8,7 @@ defmodule Five.WhatTime do
   end
 
   def is_it_five(hour, minute) when hour == 02 do
-    {:ok, "Alaska, USA", "5:#{minute} pm"}
+    {:ok, "Alaska, USA (Fairbanks during DST, otherwise Adak)", "5:#{minute} pm"}
   end
 
   def is_it_five(hour, minute) when hour == 03 do
