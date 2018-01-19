@@ -2,5 +2,9 @@
     <p class="details">
       Yes, it is <%= @time %> in <%= @location %>.
     </p>
-    <footer>It's always 5 o'clock somewhere!</footer>
+    <footer>
+      It's always 5 o'clock somewhere!
+      <br>
+      (But <a href="http://www.isitfridaysomewhere.com")>is it always Friday somewhere</a>?
+    </footer>
 </div>

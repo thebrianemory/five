@@ -30,3 +30,9 @@ footer {
   text-align: center;
   font-size: 2rem;
 }
+
+a {
+  color: #2e2b4b;
+  text-decoration-style: dashed;
+  text-decoration-color: rgba(20,20,40,.3);
+}
