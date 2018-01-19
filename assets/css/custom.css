@@ -15,20 +15,15 @@ body {
   color: #3e3b3b;
 }
 
-.friday {
-  text-align: center;
-  font-size: 35vw;
-}
-
 .details {
   text-align: center;
-  font-size: 3rem;
+  font-size: 10vmin;
 }
 
 footer {
   color: #9e9b9b;
   text-align: center;
-  font-size: 2rem;
+  font-size: 6vmin;
 }
 
 a {
